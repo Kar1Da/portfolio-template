@@ -1,0 +1,312 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.navbar-main-page {
+  position: fixed;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #636669;
+  margin: 15px 0 0 0;
+}
+
+.greeting {
+  padding: 70px 0 0 0;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 475px) {
+  .navigation-links {
+    margin: 10px;
+  }
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+  text-align: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.about-me-heading {
+  padding: 70px 0 0 0;
+}
+
+.yoga-info {
+  margin: 35px 0 0 0;
+}
+
+.yoga-info h2 {
+  text-align: start;
+}
+
+.yoga-img {
+  display: flex;
+}
+
+.yoga-paragraph {
+  display: flex;
+  background-color: white;
+  padding: 20px 0 0 0;
+}
+
+.yoga-button {
+  padding: 15px 10px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.weather-app-info {
+  margin: 35px 0 0 0;
+}
+
+.weather-app-info h2 {
+  text-align: start;
+}
+
+.weather-app-img {
+  display: flex;
+}
+
+.weather-app-paragraph {
+  display: flex;
+  background-color: white;
+  padding: 20px 0 0 0;
+}
+
+.weather-app-button {
+  padding: 15px 10px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.yogurt-info {
+  margin: 35px 0 35px 0;
+}
+
+.yogurt-info h2 {
+  text-align: start;
+}
+
+.yogurt-img {
+  display: flex;
+}
+
+.yogurt-paragraph {
+  display: flex;
+  background-color: white;
+  padding: 20px 0 0 0;
+}
+
+.yogurt-button {
+  padding: 15px 10px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.three-images img {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid white;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+}
+
+#email {
+  margin: 35px 0 0 0;
+}
+
+@media (max-width: 475px) {
+  .greeting {
+    padding: 80px 0 0 0;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 690px) {
+  .weather-app-info h2 {
+    margin: 0 10px 20px 0;
+  }
+}
+
+@media (max-width: 475px) {
+  .developer {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 475px) {
+  .about-dev {
+    margin: 20px 10px 10px 0;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 690px) {
+  .about-dev {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 395px) {
+  .about-dev {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .yoga-image {
+    display: none;
+  }
+
+  .weather-image {
+    display: none;
+  }
+  .yogurt-image {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .first-column {
+    text-align: center;
+    width: 100%;
+  }
+
+  .second-column {
+    text-align: center;
+    width: 100%;
+  }
+
+  .third-column {
+    text-align: center;
+    width: 100%;
+  }
+
+  .first-column h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .second-column h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .third-column h2 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .funky-link {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 330px) {
+  .funky-link {
+    margin: 20px 0 20px 0;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 365px) {
+  #email h2 {
+    font-size: 35px;
+  }
+}
